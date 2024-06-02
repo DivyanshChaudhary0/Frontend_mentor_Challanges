@@ -1,0 +1,273 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/bg-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    padding: 40px 60px;
+}
+.logo img{
+    width: 250px;
+}
+.content{
+    width: 100%;
+    height: 95%;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+}
+.content .imgdiv{
+    width: 60%;
+    height: 100%;
+}
+.content .imgdiv img{
+    width: 90%;
+    height: 100%;
+}
+.content .dets{
+    width: 40%;
+    height: 100%;
+    padding: 30px 26px;
+    position: relative;
+}
+.dets h1{
+    font-family: poppins;
+    font-weight: 400;
+    color: #fff;
+    font-size: 40px;
+}
+.dets p{
+    padding-top: 20px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: 400;
+    opacity: .9;
+}
+.dets .btn{
+    width: 100%;
+    margin-top: 16px;
+    /* text-align: center; */
+}
+.btn button{
+    padding: 12px 40px;
+    border-radius: 24px;
+    border: none;
+    font-size: 16px;
+    color: hsl(257, 40%, 49%);
+}
+.dets .icons{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    justify-content: flex-end;
+    bottom: 5%;
+    right: 0%;
+}
+.dets .icons i{
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media(max-width:350px){
+    #main{
+        padding: 20px;
+    }
+    .content{
+        width: 100%;
+        height: 90%;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .logo img{
+        width: 130px;
+    }
+    .content .imgdiv{
+        width: 100%;
+        height: 50%;
+    }
+    .imgdiv img{
+        width: 100%;
+        height: 100%;
+    }
+    .content .dets{
+        width: 100%;
+        height: 50%;
+        padding: 10px;
+    }
+    .dets h1{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .dets p{
+        text-align: center;
+        font-size: 12px;
+    }
+    .dets .btn{
+        text-align: center;
+        width: 100%;
+    }
+    .btn button{
+        padding: 12px 60px;
+        font-size: 12px;
+    }
+    .dets .icons{
+        top: 100%;
+        left: 60%;
+        transform: translate(-100%,-60%);
+    }
+    .dets .icons i{
+        width: 25px;
+        height: 25px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:600px) and (min-width:350px){
+    #main{
+        padding: 20px;
+    }
+    .content{
+        width: 100%;
+        height: 90%;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .logo img{
+        width: 130px;
+    }
+    .content .imgdiv{
+        width: 100%;
+        height: 50%;
+        padding: 0px;
+    }
+    .imgdiv img{
+        width: 100%;
+        height: 100%;
+    }
+    .content .dets{
+        width: 80%;
+        height: 50%;
+        padding: 10px;
+    }
+    .dets h1{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .dets p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .dets .btn{
+        text-align: center;
+        width: 100%;
+    }
+    .btn button{
+        width: 60%;
+        padding: 12px 60px;
+        font-size: 12px;
+    }
+    .dets .icons{
+        top: 100%;
+        left: 60%;
+        transform: translate(-100%,-60%);
+    }
+    .dets .icons i{
+        width: 28px;
+        height: 28px;
+        font-size: 18px;
+    }
+}
+
+@media(max-width:1000px) and (min-width:600px){
+    #main{
+        padding: 20px;
+    }
+    .content{
+        width: 100%;
+        height: 90%;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .logo img{
+        width: 150px;
+    }
+    .content .imgdiv{
+        width: 100%;
+        height: 60%;
+        padding: 0px 30px;
+    }
+    .imgdiv img{
+        width: 100%;
+        height: 100%;
+    }
+    .content .dets{
+        width: 80%;
+        height: 40%;
+        padding: 10px;
+    }
+    .dets h1{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .dets p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .dets .btn{
+        text-align: center;
+        width: 100%;
+    }
+    .btn button{
+        width: 60%;
+        padding: 12px 60px;
+        font-size: 12px;
+    }
+    .dets .icons{
+        top: 100%;
+        left: 60%;
+        transform: translate(-100%,-60%);
+    }
+    .dets .icons i{
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1280px) and (min-width:1000px){
+    .logo img{
+        width: 200px;
+    }
+    .dets h1{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .logo p{
+        font-size: 22px;
+    }
+}
